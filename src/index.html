@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Furniutr.</title>
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400, 600,700,900" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Nunito:regular" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:regular" rel="stylesheet" />
+      <link rel="stylesheet" href="./style.scss" />
+   </head>
+   <body>
+      <div class="wrapper">
+         <header>
+            <include src="./components/navBar.html"></include>
+         </header>
+         <main class="container">
+            <include src="./components/hero.html"></include>
+            <include src="./components/about.html"></include>
+            <include src="./components/products.html"></include>
+            <include src="./components/endInfo.html"></include>
+         </main>
+         <footer class="container">
+            <include src="./components/footer.html"></include>
+         </footer>
+      </div>
+      <script src="./script.js" type="module"></script>
+   </body>
+</html>
