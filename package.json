@@ -2,10 +2,13 @@
    "name": "furniutr",
    "version": "1.0.0",
    "description": "",
+   "homepage": "https://nightwanderer2004.github.io/Furniutr/",
    "scripts": {
       "start": "parcel ./src/index.html",
-      "build": "parcel build ./src/html/index.html",
-      "clean": "rm -rf dist && rm -rf .parcel-cache"
+      "build": "parcel build ./src/index.html --public-url /Furniutr",
+      "clean": "rm -rf dist && rm -rf .parcel-cache",
+      "deploy": "gh-pages -d dist",
+      "predeploy": "npm run build"
    },
    "keywords": [],
    "author": "",
@@ -24,6 +27,7 @@
    },
    "dependencies": {
       "aos": "^2.3.4",
+      "gh-pages": "^3.2.3",
       "swiper": "^8.0.3"
    }
 }
