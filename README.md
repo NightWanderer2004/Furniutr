@@ -3,7 +3,7 @@
 -  ##### AOS
 -  ##### Swiper JS
 
-## Link -
+## Link
 
 #### [https://nightwanderer2004.github.io/Furniutr/](https://nightwanderer2004.github.io/Furniutr/)
 
