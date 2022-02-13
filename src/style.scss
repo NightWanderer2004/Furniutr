@@ -212,7 +212,7 @@ body {
 }
 .about {
    position: relative;
-   column-gap: 25px;
+   column-gap: 60px;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -414,7 +414,7 @@ body {
       }
       &Label {
          font-family: Montserrat;
-         font-size: 22px;
+         font-size: 20px;
          font-weight: 700;
          color: #282a30;
          margin-bottom: 17px;
