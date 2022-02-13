@@ -1,4 +1,4 @@
-## Using
+## Plugins
 
 -  ##### AOS
 -  ##### Swiper JS
