@@ -63,7 +63,7 @@ body {
    z-index: 10;
    width: 100%;
    padding: 0 10px;
-   transition: box-shadow 0.1s
+   transition: box-shadow 0.1s;
    &.fixed {
       box-shadow: rgba(0, 0, 0, 0.065) 0px 0px 20px 8px;
       & .navBarContent {
